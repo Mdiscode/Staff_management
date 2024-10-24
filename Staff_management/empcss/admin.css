@@ -1,0 +1,130 @@
+.header{
+    background-color: aqua;
+    color: white;
+    /* margin-top:7rem; */
+}
+.header .container{
+    max-width: 1496vw;
+    margin-inline: 1.5rem;
+}
+
+.nav_logo{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 1.5rem;
+    /* float: left; */
+    /* margin-right: 277px; */
+}
+
+/* ----Add-Employee---css--- */
+.containerform{
+    width: 100%;
+    height: 129vh;
+    /* height: 100vh; */
+    padding-top:9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AddEmp-main{
+    width: 38rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius:1.5rem;
+    box-shadow: 2px 2px 10px 4px rgba(48, 140, 138, 0.15);
+    margin-bottom: 4.5rem;
+}
+.AddEmp-main h2{
+  margin-bottom: 30px;
+}
+#AddEmpForm{
+    display: grid;
+    max-width: 100em;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 2rem;
+    gap: 2rem 2rem;
+}
+
+.col-3{
+    grid-column-start: span 2;
+}
+
+  .AddEmp-inputbox{
+    width: 100%;
+    height: 72px;
+    font-size: 1rem;
+}
+
+  .inputEmp{
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+#Addbtn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 1.5rem;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+/* media query--- */
+@media (max-width:1200px) {
+    #addform{
+        max-width: 70vw;
+
+    }
+}
+
+@media (max-width:600px) {
+  .col-1,.col2 , .col-5,.col-6{
+        grid-column-start: span 2;
+    }
+    /* .containerform{
+        /* padding-top: 0px; */
+        /* margin: 0; */
+    
+}
+
+/* view-Employee--- */
+/* #empview {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100vw;
+    margin-top:6rem;
+}
+
+#empview td, #empview th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+#empview tr:nth-child(even){background-color: #f2f2f2;}
+
+#empview tr:hover {background-color: #ddd;}
+
+#empview  th {
+padding: 0.5rem;
+/* text-align: center; */
+/* padding-bottom: 12px;
+background-color: #04AA6D;
+color: white;
+}
+ .updateemp ,.deleteemp{
+border-radius: 7px;
+padding: 10px;
+background: blue;
+color: white;
+text-decoration: none;
+}
+.deleteemp{background:red;} */
+ 
